@@ -10,6 +10,12 @@ public class TestStringComparision {
         Customer cs  = new Customer("rakesh",2);
         Customer cs1 = new Customer("rakesh",2);
 
+        if(cs == cs1){
+            System.out.println("cs object == cs1 object");
+        }
+        if(cs.equals(cs1)){
+            System.out.println("cs object equals cs1");
+        }
         if(cs.getName() == cs1.getName()){
             System.out.println("cs == cs1");
         }
