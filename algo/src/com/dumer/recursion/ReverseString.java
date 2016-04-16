@@ -15,7 +15,7 @@ public class ReverseString {
     }
 
     private static String reverseMyString(String example) {
-        //base case to handle one char string and empty string
+        //strategy case to handle one char string and empty string
         if (example.length() < 2) {
             return example;
         }
